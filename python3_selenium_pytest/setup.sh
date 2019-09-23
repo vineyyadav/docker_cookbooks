@@ -15,11 +15,3 @@ apt-get clean
 wget -q -O- https://bootstrap.pypa.io/get-pip.py | python3.7
 
 pip install selenium pytest pytest-html
-
-ln -s /usr/bin/vim.tiny /usr/bin/vim
-
-#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-#sudo dpkg -i google-chrome-stable_current_amd64.deb
-
-#wget -P /root/ https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_linux64.zip
-
